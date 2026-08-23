@@ -1,0 +1,4 @@
+# [VULN-10] .env committed to the repo (should be in .gitignore) and using
+# a weak, guessable secret value.
+JWT_SECRET=changeme
+DB_PASSWORD=admin123
